@@ -1,0 +1,11 @@
+LINGUAGEM PROGRAMAÇÃO
+
+PYTHON -- CRIAR API´S
+NODE JS
+JAVA
+R
+GOLANG
+PHP
+
+-------------
+BIBLIOTECA --> PYTHON(pip install)
