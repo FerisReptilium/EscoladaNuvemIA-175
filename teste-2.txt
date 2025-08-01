@@ -1,0 +1,13 @@
+def calcular_comissao():
+    nome_vendedor = input() # Primeiro nome do vendedor
+    salario_fixo = float(input()) # Salário fixo do vendedor
+    total_vendas = float(input()) # Total de vendas no mês
+
+    comissao = total_vendas * 0.15
+    total_a_receber = salario_fixo + comissao
+
+    # Imprime o total a receber com duas casas decimais
+    print(f"TOTAL = R$ {total_a_receber:.2f}")
+
+# Chama a função para executar a calculadora
+# calcular_comissao()

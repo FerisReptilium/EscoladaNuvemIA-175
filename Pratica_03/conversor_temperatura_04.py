@@ -1,9 +1,6 @@
 def converter_temperatura_simplificado():
-    """
-    Função simplificada para converter temperaturas entre Celsius, Fahrenheit e Kelvin.
-    O usuário informa a temperatura, a unidade de origem e a unidade de destino.
-    Assume entradas válidas para simplificação.
-    """
+    
+   
     temperatura = float(input("Digite a temperatura: "))
     unidade_origem = input("Unidade de origem (C, F ou K): ").upper()
     unidade_destino = input("Unidade para qual deseja converter (C, F ou K): ").upper()
@@ -31,5 +28,4 @@ def converter_temperatura_simplificado():
     else:  # Assume que a unidade_destino é 'C'
         print(f"Temperatura convertida: {celsius:.2f}C")
 
-# --- Para rodar o programa, a função é chamada aqui ---
 converter_temperatura_simplificado()
