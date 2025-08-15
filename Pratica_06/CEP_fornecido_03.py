@@ -11,14 +11,14 @@ def consultar_cep(cep):
         dict or None: Um dicionário com os dados do endereço se a consulta for bem-sucedida,
                       ou None se ocorrer um erro ou o CEP não for encontrado.
     """
-    # A URL da API ViaCEP segue o padrão: https://viacep.com.br/ws/{cep}/json/
+    
     url_api = f"https://viacep.com.br/ws/{cep}/json/"
 
     try:
-        # Faz a requisição GET para a API
+        
         response = requests.get(url_api)
         
-        # Verifica se a requisição foi bem-sucedida
+        
         if response.status_code == 200:
             dados = response.json()
             

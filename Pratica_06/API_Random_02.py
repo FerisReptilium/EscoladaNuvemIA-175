@@ -8,12 +8,12 @@ def gerar_perfil_usuario():
     url_api = "https://randomuser.me/api/"
 
     try:
-        # Faz a requisição GET para a API
+       
         response = requests.get(url_api)
         
-        # Verifica se a requisição foi bem-sucedida (código de status 200)
+        
         if response.status_code == 200:
-            # Converte a resposta JSON para um dicionário Python
+            
             dados_usuario = response.json()
             
             # Extrai as informações relevantes do dicionário
